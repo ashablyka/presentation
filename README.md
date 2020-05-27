@@ -25,7 +25,7 @@ Consider the following function.
 
 This function kind of speaks by itself, "generateTableHead" after all is a descriptive sentence. But how about the "data" parameter? What "data" should be really? If I look at the function's body becomes evident that "data" must be an array (by the way, what a bad naming for "data". How about "arrayOfNames"?).
 
-"table" is less bad on the other hand, yet it's not clear if it could simply be a string or an actual HTML element.
+"table" is better on the other hand, yet it's not clear if it could simply be a string or an actual HTML element.
 Turns out, code documentation with JSDoc annotations can help our functions to better describe their intentions
 
 ### Slide5
@@ -56,7 +56,7 @@ This is example in VS Code.
 
 ### Slide9. @autor
 
-JSDoc has a lot more tags. The "author" annotation for example is useful when you need to blame someone's else code. Here's an example:
+JSDoc has a lot more tags. For example, the "author" annotation is useful when you need to blame someone's else code. Here's an example:
 
 ### Slide10. @return
 
